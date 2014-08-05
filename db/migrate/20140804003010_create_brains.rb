@@ -7,5 +7,6 @@ class CreateBrains < ActiveRecord::Migration
 
       t.timestamps
     end
+    add_index :brains, :zombie_id
   end
 end
